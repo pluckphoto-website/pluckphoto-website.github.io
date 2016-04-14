@@ -1,0 +1,105 @@
+/**
+ * Text styling
+ */
+
+h1, h2, h3, h4, b, strong {
+    color: #0C94C7;
+}
+
+h1, h2, h3, p, strong, li, a {
+    font-family: "Montserrat"
+}
+
+p, li {
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.termslist li {
+    margin-bottom: 15px;
+}
+
+a {
+    font-weight: 700;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul.termslist li {
+    list-style: circle;
+}
+
+/**
+ * About
+ */
+
+ol.textpoints > li {
+    color: #0C94C7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+ol.textpoints > li::before {
+    position: absolute;
+    transform: translateX(-108px) translateY(6px);
+    content:"";
+}
+
+ol.textpoints > li:nth-child(1)::before {
+    background-image: url(../img/about0.png);
+    background-size: 54px 40.5px;
+    width: 54px;
+    height: 40.5px;
+}
+
+ol.textpoints > li:nth-child(2)::before {
+    background-image: url(../img/about1.png);
+    background-size: 35px 62.22px;
+    width: 35px;
+    height: 62.22px;
+    transform: translateX(-90px) translateY(3px);
+}
+
+ol.textpoints > li:nth-child(3)::before {
+    background-image: url(../img/about2.png);
+    background-size: 54px 122.26px;
+    width: 54px;
+    height: 122.26px;
+}
+
+ol.textpoints > li:nth-child(4)::before {
+    background-image: url(../img/about3.png);
+    background-size: 46px 46px;
+    width: 46px;
+    height: 46px;
+    transform: translateX(-96px) translateY(6px);
+}
+
+ul.imagelist {
+    margin-left: 0;
+    text-align: right;
+}
+
+ol li span, ol li span ul li {
+    color: black;
+}
+
+ol li span ul {
+    margin-top: 20px;
+}
+
+font {
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+b {
+    color: #0C94C7;
+}
